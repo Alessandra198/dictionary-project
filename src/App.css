@@ -1,1 +1,43 @@
+.App {
+  font-family: "Merriweather", serif;
+}
 
+.App .container {
+  background-color: rgb(237, 180, 237, 0.7);
+  padding: 30px;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+.App header {
+  margin: 15px 0;
+}
+
+.App h1 {
+  font-weight: 600;
+}
+
+.App h2 {
+  font-size: 23px;
+}
+
+.App header,
+footer {
+  text-align: center;
+}
+
+.App main {
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.App footer {
+  opacity: 0.8;
+  font-size: 13px;
+  margin: 30px 0 0 0;
+}
+
+.App footer a {
+  color: #5b18b8;
+  text-decoration: none;
+}

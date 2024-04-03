@@ -1,0 +1,19 @@
+.DictionarySearch form {
+    text-align: center;
+    padding: 15px;
+}
+
+.DictionarySearch .input-search {
+    padding: 5px 30px 5px 10px;
+    border: plum;
+    border-radius: 5px;
+}
+
+.DictionarySearch .input-button {
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    background-color: rgb(208, 80, 182);
+    color: white;
+}
