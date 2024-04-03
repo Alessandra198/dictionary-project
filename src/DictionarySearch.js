@@ -5,9 +5,18 @@ import "./DictionarySearch.css";
 export default function DictionarySearch() {
   let [keyword, setKeyword] = useState(null);
 
+  function handleResponse(response) {
+    console.log(response.data);
+  }
+
   function search(event) {
     event.preventDefault();
     alert(`Searching for ${keyword}`);
+
+      let apiKey = "cb4440cc8b49o2e10d5a63f3ecftcafe";
+      let apiUrl = `https://api.shecodes.io/dictionary/v1/define?word=${keyword}&key=${apiKey}`;
+
+      axios.get(apiUrl).then(handleResponse);
   }
 
   function handleKeyword(event) {
