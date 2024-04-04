@@ -37,14 +37,14 @@
 @media (max-width: 550px) {
     .DictionarySearch form {
         padding: 0 0 5px 0;
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .DictionarySearch .input-search {
-        padding: 5px 15px 5px 10px;
+        padding: 5px 0px 5px 10px;
     }
 
     .DictionarySearch .hint {
-    font-size: 12px;
+    font-size: 11px;
 }
 }
