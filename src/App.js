@@ -7,14 +7,28 @@ export default function App() {
       <div className="container">
         <header>
           <h1>Dictionary</h1>
-          <h2>What word do you want to look up?</h2>
+          <h2>What word are you looking for?</h2>
         </header>
         <main>
           <DictionarySearch />
         </main>
         <footer>
-          Coded with 💜 by <a href="/">Alessandra Rinaldo</a> and{" "}
-          <a href="/">open-sourced</a>
+          Coded with 💜 by{" "}
+          <a
+            href="https://github.com/Alessandra198"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Alessandra Rinaldo
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://github.com/Alessandra198/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open-sourced
+          </a>
         </footer>
       </div>
     </div>

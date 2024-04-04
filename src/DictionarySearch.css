@@ -8,6 +8,7 @@
     border: plum;
     border-radius: 5px;
     box-shadow: 3px 3px 3px rgba(150, 24, 192, 0.2);
+    background-color: rgb(249, 230, 250);
 }
 
 .DictionarySearch .input-button {
@@ -16,8 +17,14 @@
     margin-left: 5px;
     border: none;
     background-color: rgb(208, 80, 182);
-    color: white;
+    color: rgb(249, 230, 250);
     box-shadow: 3px 3px 3px rgba(150, 24, 192, 0.2);
+    transition: all 150ms ease-in-out;
+}
+
+.DictionarySearch .input-button:hover {
+    color: rgb(208, 80, 182);
+    background-color: rgb(249, 230, 250);
 }
 
 .DictionarySearch .hint {
