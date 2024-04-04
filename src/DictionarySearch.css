@@ -1,12 +1,13 @@
 .DictionarySearch form {
     text-align: center;
-    padding: 15px;
+    padding: 15px 15px 5px 15px;
 }
 
 .DictionarySearch .input-search {
     padding: 5px 30px 5px 10px;
     border: plum;
     border-radius: 5px;
+    box-shadow: 3px 3px 3px rgba(150, 24, 192, 0.2);
 }
 
 .DictionarySearch .input-button {
@@ -16,4 +17,27 @@
     border: none;
     background-color: rgb(208, 80, 182);
     color: white;
+    box-shadow: 3px 3px 3px rgba(150, 24, 192, 0.2);
+}
+
+.DictionarySearch .hint {
+    opacity: 0.5;
+    text-align: center;
+    font-size: 14px;
+    color: #881771;
+}
+
+@media (max-width: 550px) {
+    .DictionarySearch form {
+        padding: 0 0 5px 0;
+        font-size: 13px;
+    }
+
+    .DictionarySearch .input-search {
+        padding: 5px 15px 5px 10px;
+    }
+
+    .DictionarySearch .hint {
+    font-size: 12px;
+}
 }

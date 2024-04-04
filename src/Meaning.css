@@ -10,7 +10,13 @@
   margin-bottom: 0;
 }
 
-.Meaning li {
-  font-size: 14px;
-  font-style: italic;
+@media (max-width: 550px) {
+  .Meaning h6 {
+    font-size: 15px;
+  }
+
+    .Meaning p {
+    font-size: 13px;
+  }
+  
 }

@@ -11,3 +11,12 @@
     font-size: 18px;
     opacity: 0.8;
 }
+
+@media (max-width: 550px) {
+  .Results h4 {
+    font-size: 17px;
+  }
+    .Results h5 {
+    font-size: 15px;
+  }
+}

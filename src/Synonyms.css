@@ -1,0 +1,14 @@
+.Synonyms li {
+  font-size: 14px;
+  font-style: italic;
+}
+
+@media (max-width: 550px) {
+  .Synonyms p {
+    font-size: 13px;
+  }
+
+  .Synonyms li {
+    font-size: 13px;
+  }
+}

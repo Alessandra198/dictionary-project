@@ -35,6 +35,9 @@ export default function DictionarySearch() {
         />
         <input type="submit" value="Search" className="input-button" />
       </form>
+      <div className="hint">
+        suggested words: sunset, beach, book, forest
+      </div>
       <Results results={results} />
     </div>
   );

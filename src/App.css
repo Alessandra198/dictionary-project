@@ -7,6 +7,7 @@
   padding: 30px;
   border-radius: 10px;
   margin-top: 30px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 .App header {
@@ -28,16 +29,31 @@ footer {
 
 .App main {
   padding-bottom: 20px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #F9E6FA;
 }
 
 .App footer {
-  opacity: 0.8;
+  opacity: 0.7;
   font-size: 13px;
   margin: 30px 0 0 0;
 }
 
 .App footer a {
-  color: #5b18b8;
+  color: #881771;
   text-decoration: none;
+}
+
+@media (max-width: 550px) {
+
+  .App h1 {
+    font-size: 25px;
+  }
+
+    .App h2 {
+    font-size: 16px;
+  }
+
+    .App footer {
+    font-size: 11px;
+}
 }
